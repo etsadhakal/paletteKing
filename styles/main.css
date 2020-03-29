@@ -49,6 +49,7 @@ body {
 }
 
 .palette-wrapper .palette-box .color-box .box-wrapper .bg-color .copy-hex {
+  visibility: hidden;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -62,6 +63,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   background: rgba(0, 0, 0, 0.407);
+  border-radius: 5px;
 }
 
 .palette-wrapper .palette-box .color-box .box-wrapper .bg-color .copy-hex a {
@@ -83,6 +85,7 @@ body {
   color: #dadadaa1;
   font-weight: 600;
   text-decoration: none;
+  font-size: 12px;
 }
 
 .palette-wrapper .palette-box .color-box .box-wrapper .bg-color .copy-hex a span {
@@ -90,6 +93,12 @@ body {
   padding: 10px 20px;
   border-radius: 30px;
   color: #dadadaa1;
+}
+
+.palette-wrapper .palette-box .color-box .box-wrapper .bg-color:hover .copy-hex {
+  visibility: visible;
+  -webkit-transition-delay: ease-in 0.6s;
+          transition-delay: ease-in 0.6s;
 }
 
 .palette-wrapper .palette-box .color-box .box-wrapper .palette-1 {
