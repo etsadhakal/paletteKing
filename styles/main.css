@@ -10,6 +10,12 @@ body {
   background: #f3f9ff;
 }
 
+.main {
+  position: relative;
+  background: #fff;
+  height: 300px;
+}
+
 .main-content {
   margin-top: 40px;
 }
@@ -124,5 +130,19 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   padding-top: 15px;
+}
+
+.action-button {
+  margin-top: 30px;
+}
+
+.action-button .btn {
+  vertical-align: middle;
+}
+
+.action-button .btn i {
+  color: #fff;
+  vertical-align: middle;
+  font-size: 22px;
 }
 /*# sourceMappingURL=main.css.map */
