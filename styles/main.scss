@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  color: #333333;
+}
+
+body {
+  background: #f3f9ff;
+}
+.main-content {
+  margin-top: 40px;
+  .logo {
+    img {
+      vertical-align: middle;
+    }
+    span {
+      font-size: 28px;
+      font-weight: 700;
+      padding: 20px 10px;
+      vertical-align: middle;
+      color: #212121;
+    }
+  }
+}
+
+.palette-wrapper {
+  h3 {
+    color: #333333;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 40px auto;
+  }
+  .palette-box {
+    .color-box {
+      .box-wrapper {
+        background: #ffff;
+        padding: 15px;
+        min-height: 180px;
+        border-radius: 10px;
+        box-shadow: 0px 13px 18px -8px rgba(181, 220, 255, 0.56);
+        .bg-color {
+          height: 200px;
+          border-radius: 5px;
+          position: relative;
+          .copy-hex {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.407);
+            a {
+              position: absolute;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-transform: uppercase;
+              width: 100%;
+              letter-spacing: 2px;
+              text-align: center;
+              height: 100%;
+              color: #dadadaa1;
+              font-weight: 600;
+              text-decoration: none;
+              span {
+                background: #00000043;
+                padding: 10px 20px;
+                border-radius: 30px;
+                color: #dadadaa1;
+              }
+            }
+          }
+        }
+        .palette-1 {
+          background: #dc7633;
+        }
+
+        .palette-2 {
+          background: #452073;
+        }
+        .palette-3 {
+          background: #18b0b0;
+        }
+        .palette-4 {
+          background: #dee3e2;
+        }
+        span.color-code {
+          display: block;
+          font-size: 18px;
+          font-weight: 800;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          padding-top: 15px;
+        }
+      }
+    }
+  }
+}
